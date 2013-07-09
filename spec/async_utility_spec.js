@@ -6,10 +6,10 @@ describe("Async Utility", function() {
 	    
 	    require('/async_utility').getData()
 	       .then(function(){
-	           assert(true).equals(true);
+	           expect(true).toEqual(true);
 	       })
 	       .fail(function(){
-	           assert(true).equals(false);
+	           expect(true).toEqual(false);
 	       });
 	});
 
