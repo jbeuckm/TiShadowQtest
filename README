@@ -1,3 +1,13 @@
+***UPDATE:
+
+TiShadow commit 45cd4ff solves this issue. Thanks, David!
+
+This change to my local compiler.js file in TiShadow makes the test work:
+
+https://github.com/dbankier/TiShadow/commit/45cd4ffb3d9e186bb2256d08d77bb05780235836
+
+----------
+
 alloy compile --config platform=ios && tishadow spec
 
 gives...
